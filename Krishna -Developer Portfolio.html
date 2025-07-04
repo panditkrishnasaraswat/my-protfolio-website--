@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)http://127.0.0.1:5501/portfolio.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna -Developer Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(18, 18, 62);
+            height: 80px;
+            width: auto;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.2rem;
+        }
+        
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+        
+        .left {
+            font-size: 1.7rem;
+        }
+        
+        .right {
+            font-size: 1.5rem;
+        }
+        
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+        
+        .firstsection img {
+            width: 120%;
+            margin: 40px 0;
+        }
+        
+        .firstsection>div {
+            width: 30%;
+        }
+        
+        #element {
+            color: rgb(153, 153, 226);
+        }
+        
+        .leftsection {
+            font-size: 2.5rem;
+            margin: 30px 0;
+        }
+        
+        .leftsection .button {
+            padding: 50px 0;
+            margin: 30px 0;
+        }
+        
+        .download-btn {
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: blueviolet;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            border: 2px solid white;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .download-btn:hover {
+            background-color: blueviolet;
+            font-size: 1.2rem;
+        }
+        
+        .leftsection .btn2 {
+            background-color: blueviolet;
+            color: white;
+            padding: 12px;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        
+        .purple {
+            color: blueviolet;
+        }
+        
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 60vh;
+        }
+        
+        .secondsection h2 {
+            font-size: 1.9rem;
+            color: white;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 50px 0;
+        }
+        
+        .Educational {
+            font-size-adjust: calc(0.6);
+        }
+        
+        th,
+        td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #05054a;
+            color: white;
+        }
+        
+        tr:hover {
+            background-color: #14162e;
+        }
+        
+        .thirdsection {
+            max-width: 80vw;
+            height: 60vh;
+            justify-content: space-evenly;
+        }
+        
+        .thirdsection h2 {
+            margin: 40px 0;
+            font-size-adjust: calc(0.7);
+            margin: 50px;
+        }
+        
+        .skills {
+            margin: 50px;
+            font-size-adjust: calc(0.7);
+        }
+        
+        .fourthsection {
+            max-width: 80vw;
+            height: 70vh;
+            justify-content: space-evenly;
+        }
+        
+        .fourthsection h1 {
+            margin: 40px 0;
+            font-size-adjust: calc(0.7);
+            margin: 50px;
+            text-align: center;
+        }
+        
+        .Hobbies {
+            font-size-adjust: calc(0.7);
+            margin-left: 50px;
+        }
+        
+        .fivesection {
+            max-width: 80vw;
+            height: 50vh;
+            justify-content: space-evenly;
+        }
+        
+        .fivesection h1 {
+            margin: 40px 0;
+            font-size-adjust: calc(0.7);
+            margin: 50px;
+            text-align: center;
+        }
+        
+        .projects {
+            font-size-adjust: calc(0.7);
+            margin-left: 30px;
+        }
+        
+        .sevensection {
+            max-width: 80vw;
+            height: 60vh;
+            justify-content: space-evenly;
+        }
+        
+        .sevensection h1 {
+            margin: 30px 0;
+            font-size-adjust: calc(0.7);
+            margin: 30px;
+            text-align: center;
+        }
+        
+        .details {
+            font-size-adjust: calc(0.7);
+            margin-left: 60px;
+        }
+        
+        .sixsection {
+            max-width: 80vw;
+            height: 40vh;
+            justify-content: space-evenly;
+        }
+        
+        .sixsection h1 {
+            margin: 30px 0;
+            font-size-adjust: calc(0.7);
+            margin: 30px;
+            text-align: center;
+        }
+        
+        .Declaration {
+            font-size-adjust: calc(0.7);
+            margin-left: 30px;
+        }
+        
+        .Signature {
+            font-size-adjust: calc(0.7);
+            margin-left: 30px;
+        }
+        
+        .eightsection {
+            max-width: 80vw;
+            height: 30vh;
+            justify-content: space-evenly;
+        }
+        
+        .eightsection h2 {
+            margin: 30px 0;
+            font-size-adjust: calc(0.7);
+            margin: 30px;
+            text-align: center;
+        }
+        
+        .career {
+            font-size-adjust: calc(0.7);
+            margin-left: 50px;
+        }
+        
+        footer {
+            background-color: #0e0e1a;
+            height: 100px;
+        }
+        
+        .footer {
+            display: flex;
+            margin: 23px 122px;
+            justify-content: space-evenly;
+        }
+        
+        .footer ul {
+            list-style: none;
+        }
+        
+        .footer>div {
+            width: 223px;
+        }
+        
+        footer .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Krishna Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5501/">Home</a></li>
+                    <li><a href="http://127.0.0.1:5501/">About</a></li>
+                    <li><a href="http://127.0.0.1:5501/">Services</a></li>
+                    <li><a href="http://127.0.0.1:5501/">Projects</a></li>
+                    <li><a href="http://127.0.0.1:5501/">Contact Me</a></li>
+
+
+
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple"> Krishna Saraswat</span>
+                <div>and I am a passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
+                <br>
+                <a href="file:///C:/Users/Dc/Downloads/krishnaresume.pdf.pdf" download="" class="download-btn">Download Resume</a>
+                <a href="https://github.com/7668168519/krishna-Saraswat-.git" target="_blank" class="btn2">Visit Github</a>
+            </div>
+            <div class="rightsection">
+                <img src="./Krishna -Developer Portfolio_files/bg.jpg.jpg">
+            </div>
+        </section>
+
+        <hr>
+        <main>
+            <section class="secondsection">
+                <h2>🎓 Educational Qualification</h2>
+
+                <table class="Educational">
+                    <thead>
+
+                        <tr>
+                            <th>Degree</th>
+                            <th>Institute</th>
+                            <th>Board/university</th>
+                            <th>Year </th>
+                            <th>Marks</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>BCA</td>
+                            <td>Rajiv Academy for Technology</td>
+                            <td>Dr.Bhimrao Ambedkar University </td>
+                            <td>2023-2026</td>
+                            <td>cgpa:8.0</td>
+                        </tr>
+                        <tr>
+                            <td>12th</td>
+                            <td>K.R Inter college</td>
+                            <td>UP Board </td>
+                            <td>2023</td>
+                            <td>64%</td>
+                        </tr>
+                        <tr>
+                            <td>10th</td>
+                            <td>B.Khacher Singh I.C.</td>
+                            <td>UP Board </td>
+                            <td>2021</td>
+                            <td>75.6%</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </section>
+        </main>
+        <hr>
+        <section class="eightsection">
+
+            <h2>🎯 Career Objective</h2>
+            <p class="career">Motivated and detail-oriented BCA student with strong foundational knowledge in programming, web development, and database management. Seeking an entry-level role in IT where I can contribute to real-world projects and grow as a developer.
+
+            </p>
+
+        </section>
+        <hr>
+
+        <section class="thirdsection">
+            <h2>💻 Technical Skills</h2>
+
+            <ul class="skills">
+                <li>Programming Languages : Python, C, C++, Java (Basics)
+
+                </li>
+                <br>
+                <li>Web Development : HTML, CSS, JavaScript, PHP (Basics)</li>
+                <br>
+                <li>Database: MySQL</li>
+
+                <br>
+                <li>Tools : VS Code, Git, MS Office</li>
+                <br>
+
+                <li>Operating System : Windows, Linux (Basics)
+
+                </li>
+            </ul>
+
+        </section>
+        <hr>
+
+
+
+
+
+        <section class="fourthsection">
+            <h1>🎨 Hobbies &amp; Interests</h1>
+            <ul class="Hobbies">
+                <li>Coding and building mini web projects
+
+                </li>
+                <br>
+                <li>Exploring new technologies</li>
+                <br>
+                <li>Graphic designing and UI/UX mockups</li>
+                <br>
+                <li>Reading tech blogs and watching programming tutorials</li>
+                <br>
+                <li>Playing chess and mobile strategy games</li>
+                <br>
+                <li>Listening to music and creative writing
+
+                </li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <section class="fivesection">
+
+            <h1>🔨 Projects</h1>
+
+
+            <h4 class="projects">1. Portfolio Website Built using HTML, CSS, and JavaScript Created a personal portfolio to showcase skills and projects.</h4>
+            <br>
+            <h4 class="projects">2. QR Code Generator (Python) Generated QR codes using Python libraries for encoding text and links.
+            </h4>
+            <br>
+            <h4 class="projects"> 3. Online Vacancy Website (HTML/CSS/JS) Designed a job listing site similar to Sarkari Result with dynamic filters.
+            </h4>
+
+
+
+
+        </section>
+
+        <hr>
+
+
+
+        <section class="sevensection">
+            <h1>🧑‍💼 Personal Details</h1>
+
+            <ul class="details">
+                <li>Date of Birth: 21/05/2006</li>
+                <br>
+                <li>Father’s Name: Mr.Pooran Prakash Saraswat</li>
+                <br>
+
+                <li>Address: [vill-alipur post hayatpur, mathura ,uttar pradesh]
+
+                </li>
+                <br>
+
+                <li>Nationality: Indian</li>
+                <br>
+
+                <li>Marital Status: Single</li>
+
+            </ul>
+
+        </section>
+        <hr>
+
+        <section class="sixsection">
+
+            <h1>🤝 Declaration</h1>
+
+            <p class="Declaration">I hereby declare that the above-mentioned informationis true to the best of my knowledge.</p>
+
+            <br>
+            <br>
+            <p class="Signature">Signature: Krishna Saraswat</p>
+
+        </section>
+
+        <footer style="background-color: #0a0a23; color: white; padding: 20px; text-align: center;">
+            <p>© 2025 Krishna Saraswat. All Rights Reserved.</p>
+
+            <div style="margin: 10px 0;">
+                <a href="mailto:krishnasaraswat52@example.com">Email</a> |
+                <a href="https://github.com/krishnasaraswat52" target="_blank">GitHub</a> |
+                <a href="https://www.linkedin.com/in/krishnasaraswat52" target="_blank">LinkedIn</a>
+            </div>
+
+            <p>Made with ❤️ by Krishna Saraswat</p>
+        </footer>
+
+
+
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <script>
+            var typed = new Typed('#element', {
+                strings: ['Web Developer', 'Web Designer', 'graphic Designer '],
+                typeSpeed: 50,
+            });
+        </script>
+        <script>
+            function downloadResume() {
+                const link = document.createElement('a');
+                link.href = 'file:///C:/Users/Dc/Downloads/krishnaresume.pdf.pdf'; // make sure file exists in the same folder
+                link.download = 'file:///C:/Users/Dc/Downloads/krishnaresume.pdf.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        </script>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</main></body></html>
